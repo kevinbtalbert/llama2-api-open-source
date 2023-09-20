@@ -5,7 +5,7 @@ description: |
 author: Cloudera Inc.
 specification_version: 1.0
 prototype_version: 1.0
-date: "2023-09-11"
+date: "2023-09-20"
 
 runtimes:
   - editor: Workbench
