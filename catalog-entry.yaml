@@ -11,7 +11,7 @@ entries:
         own content/knowledge base.
 
     image_path: >-
-      https://raw.githubusercontent.com/kevinbtalbert/openai-text-to-sql/main/assets/catalog-entry.png
+      https://raw.githubusercontent.com/kevinbtalbert/llama2-api-open-source/main/assets/catalog-entry.png
     tags:
       - Chatbot
       - LLM
