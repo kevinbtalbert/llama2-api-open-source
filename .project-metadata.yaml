@@ -57,7 +57,7 @@ tasks:
     short_summary: Run job to download pre-trained models.
   
   - type: start_application
-    name: CML OpenAI Text to SQL
+    name: CML Llama2 REST API
     subdomain: cml-llama2-api
     script: 3_app/main.py
     short_summary: Start CML Llama2 API
