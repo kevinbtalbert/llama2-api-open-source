@@ -12,14 +12,6 @@ import asyncio
 import subprocess
 
 
-# GGML model required to fit Llama2-13B on a T4 GPU
-# GENERATIVE_AI_MODEL_REPO = "TheBloke/Llama-2-13B-chat-GGML"
-# GENERATIVE_AI_MODEL_FILE = "llama-2-13b-chat.ggmlv3.q5_1.bin"
-
-# model_path = hf_hub_download(
-#     repo_id=GENERATIVE_AI_MODEL_REPO,
-#     filename=GENERATIVE_AI_MODEL_FILE
-# )
 model_path = "/home/cdsw/models/gen-ai-model/llama-2-13b-chat.ggmlv3.q5_1.bin"
 
 llama2_model = Llama(
