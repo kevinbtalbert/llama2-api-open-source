@@ -29,7 +29,7 @@ tasks:
     long_summary: Check GPU device supports the CUDA capabilities required.
     kernel: python3
     cpu: 2
-    memory: 4
+    memory: 8
     gpu: 1
 
   - type: run_session
