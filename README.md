@@ -1,4 +1,4 @@
-# Host Open Source Llama2 API
+# Host Your Own Open Source Llama2 API
 Open Source Llama2 API for organizations to internally host from their CML environments
 
 This can be added to CML via its Github link or the custom catalog entry: https://raw.githubusercontent.com/kevinbtalbert/llama2-api-open-source/main/catalog-entry.yaml
