@@ -61,8 +61,9 @@ tasks:
     subdomain: cml-llama2-api
     script: 3_app/main.py
     short_summary: Start CML Llama2 API
-    long_summary: Start CML Llama2 API hosted at the 
+    long_summary: Start CML Llama2 API. Remember to enable unauthenticated app access for external facing API calls.
     cpu: 2
     memory: 16
+    gpu: 1
     environment_variables:
       TASK_TYPE: START_APPLICATION
