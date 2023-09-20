@@ -6,21 +6,25 @@ This can be added to CML via its Github link or the custom catalog entry:
 
 ## Forming a request to the API
 Requests can be formed intra-domain or cross-domain. For cross-domain requests, you'll need to ensure unauthenticated app access is allowed for the POST endpoint to be reachable.
+
 ![](/assets/unauthenticated-access.png)
 
 For request syntax: 
-GET and POST to the ROOT of the CML application endpoint (e.g. https://subdomain.domain.go01-dem.ylcu-atmi.cloudera.site/)
+GET and POST to the ROOT of the CML application endpoint (e.g. `https://subdomain.domain.go01-dem.ylcu-atmi.cloudera.site/`)
 Successful GET request should indicate the API is up and running:
+
 ![](/assets/GET-endpoint.png)
 
-Forming the POST request can be done through Postman or natively in CML:
+### Forming the POST request can be done through Postman or natively in CML:
 
-1. Postman
+#### 1. Postman
+
 Form the payload/url to match the below, and add the header `Content-Type | application/json`
 ![](/assets/postman-setup.png)
 
 
-2. Pythonic
+#### 2. Pythonic (also available in the 3_app folder as an Jupyter notebook)
+
 ```python
 import requests
 import json
