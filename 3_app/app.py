@@ -51,9 +51,6 @@ def generate_text(data: TextInput) -> dict[str, str]:
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
         
-        
-# if __name__ == "__main__":
-#     subprocess.run(uvicorn.run("main:app", host="127.0.0.1", port=int(os.environ['CDSW_APP_PORT']), reload=False))
 def run_server():
     uvicorn.run(app, host="127.0.0.1", port=int(os.environ['CDSW_APP_PORT']), reload=False)
 
