@@ -6,7 +6,7 @@ This can be added to CML via its Github link or the custom catalog entry: https:
 ![](/assets/catalog-entry.png)
 
 ## Forming a request to the API
-Requests can be formed intra-domain or cross-domain. For cross-domain requests, you'll need to ensure unauthenticated app access is allowed for the POST endpoint to be reachable.
+Requests can be formed intra-domain or cross-domain. For cross-domain requests, you'll need to ensure unauthenticated app access is allowed for the POST endpoint to be reachable. Be cognizant of the amount of tokens and temperature you feed into the payload parameters. Most requests for a couple sentences should use around 200 tokens, a paragraph could use upwards of 600-800. 
 
 ![](/assets/unauthenticated-access.png)
 
@@ -21,6 +21,7 @@ Successful GET request should indicate the API is up and running:
 #### 1. Postman
 
 Form the payload/url to match the below, and add the header `Content-Type | application/json`
+
 ![](/assets/postman-setup.png)
 
 
