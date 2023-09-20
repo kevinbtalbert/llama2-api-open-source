@@ -59,7 +59,7 @@ tasks:
   - type: start_application
     name: CML Llama2 REST API
     subdomain: cml-llama2-api
-    script: 3_app/main.py
+    script: 3_app/app.py
     short_summary: Start CML Llama2 API
     long_summary: Start CML Llama2 API. Remember to enable unauthenticated app access for external facing API calls.
     cpu: 2
