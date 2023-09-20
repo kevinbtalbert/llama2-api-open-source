@@ -1,9 +1,13 @@
 # Host Your Own Open Source Llama2 API
 Open Source Llama2 API for organizations to internally host from their CML environments
 
+![](/assets/catalog-entry.png)
+
+## Add to your CML AMP library
+
 This can be added to CML via its Github link or the custom catalog entry: https://raw.githubusercontent.com/kevinbtalbert/llama2-api-open-source/main/catalog-entry.yaml
 
-![](/assets/catalog-entry.png)
+![](/assets/add-catalog.png)
 
 ## Forming a request to the API
 Requests can be formed intra-domain or cross-domain. For cross-domain requests, you'll need to ensure unauthenticated app access is allowed for the POST endpoint to be reachable. Be cognizant of the amount of tokens and temperature you feed into the payload parameters. Most requests for a couple sentences should use around 200 tokens, a paragraph could use upwards of 600-800. 
