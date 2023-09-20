@@ -13,9 +13,9 @@ entries:
     image_path: >-
       https://raw.githubusercontent.com/kevinbtalbert/llama2-api-open-source/main/assets/catalog-entry.png
     tags:
-      - Chatbot
-      - LLM
       - Llama2
+      - LLM
+      - NLP
       - Generative AI
       - API
     git_url: 'https://github.com/kevinbtalbert/llama2-api-open-source'
