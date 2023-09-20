@@ -12,7 +12,11 @@ This can be added to CML via its Github link or the custom catalog entry: https:
 ## Forming a request to the API
 Requests can be formed intra-domain or cross-domain. For cross-domain requests, you'll need to ensure unauthenticated app access is allowed for the POST endpoint to be reachable. Be cognizant of the amount of tokens and temperature you feed into the payload parameters. Most requests for a couple sentences should use around 200 tokens, a paragraph could use upwards of 600-800. 
 
-![](/assets/unauthenticated-access.png)
+![](/assets/unauthenticated-access1.png)
+
+Note that if this option does not appear, you may need to update your Administrative security settings to mirror the below, where "Allow applications to be configured with unauthenticated access" is checked:
+
+![](/assets/unauthenticated-access2.png)
 
 For request syntax: 
 GET and POST to the ROOT of the CML application endpoint (e.g. `https://subdomain.domain.go01-dem.ylcu-atmi.cloudera.site/`)
