@@ -52,7 +52,7 @@ def generate_text(data: TextInput) -> dict[str, str]:
         raise HTTPException(status_code=500, detail=str(e))
         
 def run_server():
-    uvicorn.run(app, host="127.0.0.1", port=int(os.environ['CDSW_APP_PORT']), reload=False)
+    uvicorn.run(app, host="127.0.0.1", port=int(os.environ['CDSW_APP_PORT']), log_level="warning", reload=False)
 
 server_thread = threading.Thread(target=run_server)
 server_thread.start()
